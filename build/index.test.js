@@ -2,10 +2,10 @@
 
 var _ = require('.');
 
-var _2 = _interopRequireDefault(_);
+test('should map objects based on args', function () {
+    var data = { one: 1, two: 2, three: 3 };
+    var conf = { one: 'ONE', three: 'THREE' };
+    var res = { ONE: 1, two: 2, THREE: 3 };
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-test('says hello world!', function () {
-    return expect((0, _2.default)()).toBe('hello world!');
-});
+    expect((0, _.paz)(data, conf)).toEqual(res);
+}); /*jshint esversion: 6 */

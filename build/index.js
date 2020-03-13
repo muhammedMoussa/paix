@@ -1,9 +1,19 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
+/*jshint esversion: 6 */
+var paz = exports.paz = function paz(obj, configs) {
+    for (var keys in configs) {
+        var value = configs[keys];
+        var src_keys = Object.keys(obj);
+        if (src_keys.includes(keys)) {
+            var src_value = obj[keys];
+            delete obj[keys];
+            obj[value] = src_value;
+        }
+    }
 
-exports.default = function () {
-  return 'hello world!';
+    return obj;
 };
