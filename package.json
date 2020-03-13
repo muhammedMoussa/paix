@@ -1,5 +1,5 @@
 {
-  "name": "paz",
+  "name": "paix",
   "version": "0.0.1",
   "description": "mapping objects in peace code!",
   "main": "build/index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/muhammedMoussa/paz.git"
+    "url": "git+https://github.com/muhammedMoussa/paix.git"
   },
   "keywords": [
     "map",
@@ -30,9 +30,9 @@
   "author": "Muhammed Moussa (https://muhammedmoussa.github.io)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/muhammedMoussa/paz/issues"
+    "url": "https://github.com/muhammedMoussa/paix/issues"
   },
-  "homepage": "https://github.com/muhammedMoussa/paz#readme",
+  "homepage": "https://github.com/muhammedMoussa/paix#readme",
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-preset-latest": "^6.16.0",

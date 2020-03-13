@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 /*jshint esversion: 6 */
-var paz = exports.paz = function paz(obj, configs) {
+var paix = exports.paix = function paix(obj, configs) {
     for (var keys in configs) {
         var value = configs[keys];
         var src_keys = Object.keys(obj);
@@ -14,6 +14,5 @@ var paz = exports.paz = function paz(obj, configs) {
             obj[value] = src_value;
         }
     }
-
     return obj;
 };

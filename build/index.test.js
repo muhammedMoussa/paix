@@ -7,5 +7,5 @@ test('should map objects based on args', function () {
     var conf = { one: 'ONE', three: 'THREE' };
     var res = { ONE: 1, two: 2, THREE: 3 };
 
-    expect((0, _.paz)(data, conf)).toEqual(res);
+    expect((0, _.paix)(data, conf)).toEqual(res);
 }); /*jshint esversion: 6 */

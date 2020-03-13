@@ -1,5 +1,5 @@
 /*jshint esversion: 6 */
-export const paz = (obj, configs) => {
+export const paix = (obj, configs) => {
     for (let keys in configs) {
         const value = configs[keys];
         const src_keys = Object.keys(obj);
