@@ -1,6 +1,6 @@
 {
   "name": "paix",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "mapping objects in peace code!",
   "main": "build/index.js",
   "scripts": {
